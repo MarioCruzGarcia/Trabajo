@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  th,
+  td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: left;
+  }
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  .admin header {
+    background-color: #333;
+    padding: 10px;
+    color: #fff;
+  }
+  .admin .user-profile {
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: #fff;
+  }
+  .admin .profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  .admin .username {
+    color: #fff;
+    font-weight: bold;
+  }
+  .admin .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    display: none;
+  }
+  .admin .dropdown-menu a {
+    display: block;
+    padding: 5px 10px;
+    color: #333;
+  }
+  .admin .dropdown-menu a:hover {
+    background-color: #f2f2f2;
+  }
+  .admin .user-profile:hover .dropdown-menu {
+    display: block;
+  }
+  .navbar {
+    background-color: #333;
+    color: #fff;
+    height: 6vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  .navbar-brand a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+  }
+a.button {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  a.button:hover {
+    background-color: #555;
+  }
+  a.button.delete {
+    background-color: #333;
+  }
+  a.button.delete:hover {
+    background-color: #ff0000;
+  }
+  a.button.create {
+    background-color: #333;
+  }
+  a.button.create:hover {
+    background-color: #1976d2;
+  }
+  a.button.edit {
+    background-color: #333;
+  }
+  a.button.edit:hover {
+    background-color: #1976d2;
+  }
+  body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  main {
+    flex-grow: 1;
+    min-height: 0;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    flex-grow: 1;
+  }
+  header {
+    width: 100%;
+  }
+  table {
+    width: 100%;
+    table-layout: fixed; 
+  }
+  .moto{
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  .moto:hover {
+    text-decoration: none;
+  }

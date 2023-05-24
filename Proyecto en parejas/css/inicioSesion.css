@@ -1,0 +1,82 @@
+body {
+    background-image: url(../img/mercedes.png);
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+.menu {
+    list-style: none;
+    padding: 0;
+    background-color: rgba(128, 128, 128, 0.144);
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.inicio1{
+    padding: 200px;
+}
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+    text-align: center;
+}
+
+.menu li a:hover {
+    background: gray;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+form {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(360deg, transparent, #1db4bc);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+    width: 270px;
+    border: 1px solid black;
+}
+
+.inicio {
+    background-color: #000818;
+    text-decoration: none;
+    font-size: 12px;
+    color: aliceblue;
+    font-weight: bold;
+    box-shadow: 1px 1px 4px 2px rgb(0, 174, 255);
+    border: 4px solid transparent;
+    padding: 1 2;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    transition: 0.3s;
+    animation: animate;
+    cursor: pointer;
+}
+
+.inicio:hover {
+    letter-spacing: 11px;
+    background-color: transparent;
+}
